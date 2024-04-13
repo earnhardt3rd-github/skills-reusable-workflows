@@ -21,6 +21,7 @@ _Make a workflow reusable, call it in another workflow, and use a matrix strateg
   Define terms and link to docs.github.com.
 -->
 
+
 ## Step 5: Trigger your workflow and view the Actions logs
 
 _You're almost done. Last step! :heart:_
@@ -41,6 +42,7 @@ Now that the changes have been merged into the `main` branch, let's trigger the 
 Notice the list of build jobs on the left. One for the `build` job and four for the different node versions (14, 16, 18, 20) that you are running from your matrix. When one of the node version jobs complete, you can select that job and view the Actions logs for the **Output the input value**. This will print out the message from the reusable workflow file.
 
 When you're done reviewing the Actions logs, return here and refresh the page to finish the course! 🎉
+
 
 <footer>
 
